@@ -1,0 +1,22 @@
+/usr/local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/d/RedlandBuildTest
+-- 
+
+LINK_LIBRARIES      /usr/local/lib/libraptor2.a;/usr/local/lib/librasqal.a;/usr/local/lib/librdf.a;curl;xml2;xslt;ltdl
+INCLUDE_DIRECTORIES /usr/local/include/raptor2;/usr/local/include/rasqal;/usr/local/include
+
+
+-- 
+
+    RAPTOR2_STATIC_LIBRARY   /usr/local/lib/libraptor2.a
+    RAPTOR2_INCLUDE_DIR      /usr/local/include/raptor2
+
+    RASQAL_STATIC_LIBRARY    /usr/local/lib/librasqal.a
+    RASQAL_INCLUDE_DIR       /usr/local/include/rasqal
+
+    LIBRDF_STATIC_LIBRARY    /usr/local/lib/librdf.a
+    LIBRDF_INCLUDE_DIR       /usr/local/include
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/RedlandBuildTest/cmake-build-debug-wsl
