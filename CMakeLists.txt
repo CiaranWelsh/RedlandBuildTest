@@ -49,7 +49,9 @@ target_link_libraries(RedlandBuildTest PRIVATE
         xslt
         ltdl
         )
-
+#	sudo apt install automake autoconf libtool gtk-doc-tools
+#
+#	sudo apt install libxml2 libxml2-dev libxslt libxslt-dev libcurl4-openssl-dev libltdl-dev
 get_target_property(LINK_LIBRARIES RedlandBuildTest LINK_LIBRARIES)
 get_target_property(INCLUDE_DIRECTORIES RedlandBuildTest INCLUDE_DIRECTORIES)
 

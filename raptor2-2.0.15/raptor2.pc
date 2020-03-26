@@ -1,4 +1,4 @@
-prefix=/mnt/d/RedlandBuildTest/raptor2-2.0.15/install
+prefix=/usr/local
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include/raptor2

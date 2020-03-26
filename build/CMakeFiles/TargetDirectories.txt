@@ -1,0 +1,3 @@
+/mnt/d/RedlandBuildTest/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/RedlandBuildTest/build/CMakeFiles/RedlandBuildTest.dir
+/mnt/d/RedlandBuildTest/build/CMakeFiles/edit_cache.dir
